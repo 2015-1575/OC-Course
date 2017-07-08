@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Bodonitown";
+    src : url("Bodonitown.ttf") format('truetype');
+}
+
+body
+{
+    background-color: #F2E9E9;
+    background-image: url("photo_cv-big.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+h1
+{
+    text-align: center;
+    text-shadow: 2px 2px 2px gray;
+}
+
+h2
+{
+    color: gray;
+    font-family: "Bodonitown";
+    text-align: center;
+}
+
+#description
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cv
+{
+    display: flex;
+    justify-content: space-around;
+}
+.formation
+{
+    order: 3;
+}
+.experience
+{
+    order: 1;
+}
+.competences
+{
+    order: 2;
+}
